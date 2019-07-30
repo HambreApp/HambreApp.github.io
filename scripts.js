@@ -55,5 +55,5 @@ function nextImage(element)
         }
     }
     
-    change.addEventListener('click', nextPic);
+    change.addEventListener('onclick', nextPic);
 }
