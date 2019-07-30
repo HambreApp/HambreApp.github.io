@@ -1,6 +1,7 @@
 #!usr/bin/python2.7
 
 import webapp2
+from flask import Flask, redirect
 
 from google.appengine.api import users
 from google.appengine.ext import ndb
@@ -65,6 +66,18 @@ class MainHandler(webapp2.RequestHandler):
     cssi_user.put()
     self.response.write('Thanks for signing up, %s!' % 
         cssi_user.first_name)
+
+    app = Flask(__name__)
+
+
+    @app.route("/index.html")
+    @app.route("/")
+    def go_to_external_url():
+        return redirect('https://hambreapp.github.io')
+
+
+    if __name__ == "__main__":
+        app.run(host='0.0.0.0', port=4000)
 
 app = webapp2.WSGIApplication([
   ('/', MainHandler)
