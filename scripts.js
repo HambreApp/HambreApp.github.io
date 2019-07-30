@@ -54,4 +54,6 @@ function nextImage(element)
             break;
         }
     }
+    
+    change.addEventListener('click', nextPic);
 }
