@@ -29,22 +29,24 @@ function nextImage()
 
     for(var i = 0;i<imgArray.length;i++)
     {
-        if(imgArray[i].src == img.src)
+/**        if(imgArray[i].src == img.src)
         {
             if(i == imgArray.length)
             {
                 var j = 0;
-                document.getElementById(element).src = imgArray[j].src;
+                document.getElementById(mainImg).src = imgArray[j].src;
                 break;
             }
             else
             var j = i + 1;
-            document.getElementById(element).src = imgArray[j].src;
+            document.getElementById(mainImg).src = imgArray[j].src;
             break;
-        }
+        } 
+        */
+        document.getElementById(main.Img).src = imgArray[i].link
     }
     
-    change.addEventListener('onclick', nextImage);
+    //change.addEventListener('onclick', nextImage);
 }
 
 /*-----------------------------------*/
