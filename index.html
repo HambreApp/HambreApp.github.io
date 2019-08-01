@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="Fork.png">
   <title>Hambre</title>
-  <script src="scripts.js">
+ <!-- <script src="scripts.js"> -->
   <center>
     <div class="heading">
       <h1>Hambre</h1>
@@ -32,4 +32,58 @@
 	<p>Copyright ©2019 HambreCompany.</p>	
 		
 	</body>
+	<script>
+		//var Restaurants = ["Grana", "Momona", "Gogis", "MadisonBear", "Tres Hombres", "Ali Baba", "Peeking Chinese", "Celestino's Pizza", "Cheese Steakshop", "Great Northern Coffee"]
+function Restaurants(name, src) {}
+
+var imgArray = new Array();
+imgArray.push(new Restaurants("Grana", "Grana.jpg"));
+
+imgArray.push(new Restaurants("Momona", "Momona.jpg"));
+
+imgArray.push(new Restaurants("MadisonBear", "MadisonBearGarden.jpg"));
+
+imgArray.push(new Restaurants("Gogis", "GogisCafe.jpg"));
+
+imgArray.push(new Restaurants("CheeseSteakShop", "CheeseSteakShop.jpg"));
+
+imgArray.push(new Restaurants("CelestinosPizza", "CelestinosPizza.jpg"));
+
+imgArray.push(new Restaurants("AliBaba", "AliBaba.jpg"));
+
+imgArray.push(new Restaurants("PeekingChinese", "PeekingChinese.jpg"));
+
+imgArray.push(new Restaurants("TresHombres", "TresHombres.jpg"));
+
+imgArray.push(new Restaurants("GreatNorthernCoffee", "GreatNorthernCoffee.jpg"));
+
+/*------------------------------------*/
+
+function nextImage()
+{
+
+    for(var i = 0;i<imgArray.length;i++)
+    {
+/**        if(imgArray[i].src == img.src)
+        {
+            if(i == imgArray.length)
+            {
+                var j = 0;
+                document.getElementById(mainImg).src = imgArray[j].src;
+                break;
+            }
+            else
+            var j = i + 1;
+            document.getElementById(mainImg).src = imgArray[j].src;
+            break;
+        } 
+        */
+        document.getElementById(mainImg).src = imgArray[i].src;
+    }
+    
+    //change.addEventListener('onclick', nextImage);
+}
+
+/*-----------------------------------*/
+	</script>
 </html>
