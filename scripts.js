@@ -46,3 +46,10 @@ function nextImage()
     
     change.addEventListener('onclick', nextImage);
 }
+
+/*-----------------------------------*/
+
+function getDefaultObjectAt(imgArray, Grana)
+{
+    	return array[index] = array[index] || {};
+}
