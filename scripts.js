@@ -24,9 +24,8 @@ imgArray[9] = new Restaurants("GreatNorthernCoffee", "GreatNorthernCoffee.jpg")
 
 /*------------------------------------*/
 
-function nextImage(element)
+function nextImage()
 {
-    var imgArray = document.getElementById(element);
 
     for(var i = 0;i<imgArray.length;i++)
     {
