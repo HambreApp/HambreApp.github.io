@@ -57,11 +57,3 @@ function nextImage(element)
     
     change.addEventListener('onclick', nextPic);
 }
-
-
-	<script>
-    function pictureChange()
-    {
-          document.getElementById("Momona").src="Momona.jpg";
-    }
-    </script>
