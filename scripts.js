@@ -26,7 +26,7 @@
 
   /*------------------------------------*/
   var i =1;
-  function nextImage()
+  function nextImage() 
   {
     if(i == imgArray.length)
     {
