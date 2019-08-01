@@ -1,7 +1,7 @@
 //var Restaurants = ["Grana", "Momona", "Gogis", "MadisonBear", "Tres Hombres", "Ali Baba", "Peeking Chinese", "Celestino's Pizza", "Cheese Steakshop", "Great Northern Coffee"]
 function Restaurants (name, link) {}
 
-var imgArray[]
+var imgArray[];
 imgArray[0] = new Restaurants("Grana", "Grana.jpg")
 
 imgArray[1] = new Restaurants("Momona", "Momona.jpg")
