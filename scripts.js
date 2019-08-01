@@ -1,36 +1,27 @@
-//var Restaurants = ["Grana", "Momona", "Gogi's Cafe", "Madison Bear Garden", "Tres Hombres", "Ali Baba", "Peeking Chinese", "Celestino's Pizza", "Cheese Steakshop", "Great Northern Coffee"]
+//var Restaurants = ["Grana", "Momona", "Gogis", "MadisonBear", "Tres Hombres", "Ali Baba", "Peeking Chinese", "Celestino's Pizza", "Cheese Steakshop", "Great Northern Coffee"]
+function Restaurants (name, link) {}
 
 var imgArray = new Restauarants();
 
-imgArray[0] = new Grana();
-imgArray[0].src = 'Grana.jpg';
+imgArray[0] = new Restaurants("Grana", "Grana.jpg")
 
-imgArray[1] = new Momona();
-imgArray[1].src = 'Momona.jpg';
+imgArray[1] = new Restaurants("Momona", "Momona.jpg")
 
-imgArray[2] = new Gogis();
-imgArray[2].src = 'GogisCafe.jpg';
+imgArray[2] = new Restaurants("MadisonBear", "MadisonBearGarden.jpg")
 
-imgArray[3] = new MadisonBear();
-imgArray[3].src = 'MadisonBearGarden.jpg';
+imgArray[3] = new Restaurants("Gogis", "GogisCafe.jpg")
 
-imgArray[4] = new TresHombres();
-imgArray[4].src = 'TresHombres.jpg';
+imgArray[4] = new Restaurants("CheeseSteakShop", "CheeseSteakShop.jpg")
 
-imgArray[5] = new AliBaba();
-imgArray[5].src = 'AliBaba.jpg';
+imgArray[5] = new Restaurants("CelestinosPizza", "CelestinosPizza.jpg")
 
-imgArray[6] = new PeekingChinese();
-imgArray[6].src = 'PeekingChinese.jpg';
+imgArray[6] = new Restaurants("AliBaba", "AliBaba.jpg")
 
-imgArray[7] = new Celestinos();
-imgArray[7].src = 'CelestinosPizza.jpg';
+imgArray[7] = new Restaurants("PeekingChinese", "PeekingChinese.jpg")
 
-imgArray[8] = new CheeseSteakShop();
-imgArray[8].src = 'CheeseSteakShop.jpg';
+imgArray[8] = new Restaurants("TresHombres", "TresHombres.jpg")
 
-imgArray[9] = new GreatNorthernCoffee();
-imgArray[9].src = 'GreatNorthernCoffee.jpg';
+imgArray[9] = new Restaurants("GreatNorthernCoffee", "GreatNorthernCoffee.jpg")
 
 /*------------------------------------*/
 
