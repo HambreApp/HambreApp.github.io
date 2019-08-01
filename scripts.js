@@ -36,7 +36,7 @@ imgArray[9].src = 'GreatNorthernCoffee.jpg';
 
 function nextImage(element)
 {
-    var img = document.getElementById(element);
+    var imgArray = document.getElementById(element);
 
     for(var i = 0;i<imgArray.length;i++)
     {
@@ -55,5 +55,5 @@ function nextImage(element)
         }
     }
     
-    change.addEventListener('onclick', nextPic);
+    change.addEventListener('onclick', nextImage);
 }
