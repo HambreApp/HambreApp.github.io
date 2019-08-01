@@ -1,41 +1,54 @@
-  function Restaurants(name, src) {
-  this.name = name;
-  this.src = src;
-  }
+//var Restaurants = ["Grana", "Momona", "Gogis", "MadisonBear", "Tres Hombres", "Ali Baba", "Peeking Chinese", "Celestino's Pizza", "Cheese Steakshop", "Great Northern Coffee"]
+function Restaurants(name, src) {}
 
-  var imgArray = []
-  imgArray.push(new Restaurants("Grana", "Grana.jpg"));
+var imgArray = new Array();
+imgArray.push(new Restaurants("Grana", "Grana.jpg"));
 
-  imgArray.push(new Restaurants("Momona", "Momona.jpg"));
+imgArray.push(new Restaurants("Momona", "Momona.jpg"));
 
-  imgArray.push(new Restaurants("MadisonBear", "MadisonBearGarden.jpg"));
+imgArray.push(new Restaurants("MadisonBear", "MadisonBearGarden.jpg"));
 
-  imgArray.push(new Restaurants("Gogis", "GogisCafe.jpg"));
+imgArray.push(new Restaurants("Gogis", "GogisCafe.jpg"));
 
-  imgArray.push(new Restaurants("CheeseSteakShop", "CheeseSteakShop.jpg"));
+imgArray.push(new Restaurants("CheeseSteakShop", "CheeseSteakShop.jpg"));
 
-  imgArray.push(new Restaurants("CelestinosPizza", "CelestinosPizza.jpg"));
+imgArray.push(new Restaurants("CelestinosPizza", "CelestinosPizza.jpg"));
 
-  imgArray.push(new Restaurants("AliBaba", "AliBaba.jpg"));
+imgArray.push(new Restaurants("AliBaba", "AliBaba.jpg"));
 
-  imgArray.push(new Restaurants("PeekingChinese", "PeekingChinese.jpg"));
+imgArray.push(new Restaurants("PeekingChinese", "PeekingChinese.jpg"));
 
-  imgArray.push(new Restaurants("TresHombres", "TresHombres.jpg"));
+imgArray.push(new Restaurants("TresHombres", "TresHombres.jpg"));
 
-  imgArray.push(new Restaurants("GreatNorthernCoffee", "GreatNorthernCoffee.jpg"));
+imgArray.push(new Restaurants("GreatNorthernCoffee", "GreatNorthernCoffee.jpg"));
 
-  /*------------------------------------*/
-  var i =1;
-  function nextImage()
-  {
-    if(i == imgArray.length)
+/*------------------------------------*/
+
+function nextImage()
+{
+
+    for(var i = 0;i<imgArray.length;i++)
     {
-      i=0;
-      document.getElementById("mainImg").src=("images/" +imgArray[i].src);
+/**        if(imgArray[i].src == img.src)
+        {
+            if(i == imgArray.length)
+            {
+                var j = 0;
+                document.getElementById(mainImg).src = imgArray[j].src;
+                break;
+            }
+            else
+            var j = i + 1;
+            document.getElementById(mainImg).src = imgArray[j].src;
+            break;
+        } 
+        */
+        document.getElementById(mainImg).src = "Grana.jpg";
     }
-    else{
-      document.getElementById("mainImg").src=("images/" +imgArray[i].src);
-  	   i= i + 1;
-     }
+    
+    //change.addEventListener('onclick', nextImage);
 }
+
 /*-----------------------------------*/
+
+
