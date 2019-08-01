@@ -43,7 +43,7 @@ function nextImage()
             break;
         } 
         */
-        document.getElementById(mainImg).src = imgArray[i].src;
+        document.getElementById(mainImg).src = "Grana.jpg";
     }
     
     //change.addEventListener('onclick', nextImage);
