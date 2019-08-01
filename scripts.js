@@ -49,7 +49,4 @@ function nextImage()
 
 /*-----------------------------------*/
 
-function getDefaultObjectAt(imgArray, Grana)()
-{
-    	return array[index] = array[index] || {};
-}
+
