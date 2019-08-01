@@ -28,13 +28,52 @@
 	<p></p>
 	<br>
 	<br>
-	<p>Copyright ©2019 HambreCompany.</p>
-
-	<button onclick="document.getElementById('Momona').src='Momona.jpg'">change pic</button>
-
-	<img id="Grana" src="Grana.jpg" style="width:100px">
-
-	<button onclick="document.getElementById('Grana').src='Grana.jpg'">Go back</button>	
+	<p>Copyright ©2019 HambreCompany.</p>	
 	
+		
+	
+		
+		
+		
+		
+		
+		<button id="previous_button" onclick="goToPreviousImage()">Previous Image</button>
+    		<canvas id="image_canvas" height=250, width=250></canvas>
+    		<button id="next_button" onclick="goToNextImage()">Next Image</button>
+		
+		var imageUrls = ['https://s3-media4.fl.yelpcdn.com/bphoto/OUYLyRj5IigJVtbDEpAB3w/o.jpg, https://s3-media4.fl.yelpcdn.com/bphoto/2c3lw7n5snqrzhpuMFc5XA/o.jpg'];
+
+    var imageShownIndex = 0;
+
+    var canvas = document.getElementById('image_canvas');
+    var canvasContext = canvas.getContext('2d');
+
+    function goToPreviousImage() {
+        imageShownIndex = (imageShownIndex==0) ? imageUrls.length-1 : imageShownIndex-1;
+        updateImage();
+     };
+
+    function goToNextImage() {
+      imageShownIndex = (imageShownIndex == imageUrls.length-1) ? 0 : imageShownIndex+1;
+      updateImage();
+     };
+    
+    updateImage();
+
+    function updateImage() {
+
+      var img = new Image();
+      img.src = imageUrls[imageShownIndex];
+
+      canvasContext.clearRect(0, 0, 250, 250);
+
+      img.onload = function() {
+        canvasContext.drawImage(img, 0, 0);
+      }
+
+    }
+
+  </script>
+		
 </body>
 </html>
