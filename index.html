@@ -41,7 +41,7 @@ this.name = name;
 this.src = src;
 }
 
-var imgArray = new Array();
+<!-- var imgArray = new Array();
 imgArray.push(new Restaurants("Grana", "Grana.jpg"));
 
 imgArray.push(new Restaurants("Momona", "Momona.jpg"));
@@ -67,7 +67,6 @@ imgArray.push(new Restaurants("GreatNorthernCoffee", "GreatNorthernCoffee.jpg"))
 function nextImage()
 {
 
-    for(var i = 0;i<imgArray.length;i++)
     {
 /**        if(imgArray[i].src == img.src)
         {
@@ -83,6 +82,7 @@ function nextImage()
             break;
         } 
         */
+	   i= i + 1;
         document.getElementById('mainImg').src = imgArray[i].src;
     }
     
