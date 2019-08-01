@@ -1,5 +1,5 @@
 //var Restaurants = ["Grana", "Momona", "Gogis", "MadisonBear", "Tres Hombres", "Ali Baba", "Peeking Chinese", "Celestino's Pizza", "Cheese Steakshop", "Great Northern Coffee"]
-function Restaurants(name, link) {}
+function Restaurants(name, src) {}
 
 var imgArray = new Array();
 imgArray.push(new Restaurants("Grana", "Grana.jpg"));
@@ -43,7 +43,7 @@ function nextImage()
             break;
         } 
         */
-        document.getElementById(mainImg).src = imgArray[i].link;
+        document.getElementById(mainImg).src = imgArray[i].src;
     }
     
     //change.addEventListener('onclick', nextImage);
