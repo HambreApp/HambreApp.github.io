@@ -2,23 +2,78 @@
   color: white;
   font-size: 65px;
   font-weight: bold;
-  background-color: black
+  background-color: black;
+  position: relative;
+  top: -70px;
 }
 
 .img1 {
-	width: 500px;
-	height: 500px;
-	
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -90px;
+}
+
+#discover{
+        position: absolute;
+        top: 170px;
+        left: 42.5%;
 }
 
 .font {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
 
 .button {
-	background-color: gray;
-	color: black;
-	text-align: center;
-	display: inline-block;
-	padding: 15px 15px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 15px;
+    position: relative;
+    top: -120px;
+}
+.dropdown{
+  background-color: gray;
+  color: white;
+  padding: 14px 42px 14px 42px;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: "Times New Roman";
+  border: 6px double black;
+  position: relative;
+  top: -150px;
+}
+.drop{
+  display: inline-block;
+  position: absolute;
+}
+.dropdownbtns {
+        display: none;
+        border: 2px solid black;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px;
+        z-index: 1;
+        position: absolute;
+        top: -85px;
+}
+a {
+        color: black;
+}
+.dropdownbtns a{
+  display: block;
+  padding: 25px 16px 25px 16px;
+  text-decoration: none;
+  border: 1px dashed black;
+}
+
+.dropdownbtns a:hover{
+  background-color: rgb(255, 204, 204);
+}
+
+.drop:hover .dropdownbtns{
+  display: block;
+}
