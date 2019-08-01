@@ -43,7 +43,7 @@ function nextImage()
             break;
         } 
         */
-        document.getElementById(main.Img).src = imgArray[i].link
+        document.getElementById(mainImg).src = imgArray[i].link
     }
     
     //change.addEventListener('onclick', nextImage);
