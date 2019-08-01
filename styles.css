@@ -9,3 +9,8 @@
 	width: 38%;
 	height: auto;
 }
+
+.font {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
