@@ -33,24 +33,24 @@ imgArray.push(new Restaurants("Taj\'s Fine Indian Cuisine", "TajFineIndianCUisin
 imgArray.push(new Restaurants("California Pasta Production", "CaliforniaPastaProduction.jpg", 2, "https://www.yelp.com/biz/california-pasta-production-chico?osq=italian", "Italian", "CaliforniaPastaProduction", false));
 imgArray.push(new Restaurants("Aztlan Mexican", "Aztlan.jpg", 1, "https://www.yelp.com/biz/aztlan-mexican-restaurant-chico?osq=mexican", "Mexican", "Aztlan.jpg", false));
 imgArray.push(new Restaurants("Thai Express", "ThaiExpress.jpg", 1, "https://www.yelp.com/biz/thai-express-chico?osq=thai", "Oriental", "ThaiExpress.jpg", false));
-imgArray.push(new Restaurants("Priya", "PriyaIndian.jpg", 2, "https://www.yelp.com/biz/priya-chico?osq=indian", "Indian", "PriyaIndian.jpg", false));
-imgArray.push(new Restaurants("Franky\'s", "Frankys.jpg", 2, "https://www.yelp.com/biz/frankys-chico?osq=italian", "Italian", "Frankys.jpg", false));
-imgArray.push(new Restaurants("Pelican\'s Roost and Chowder", "PelicansRoost.jpg", 2, "https://www.yelp.com/biz/pelicans-roost-and-chowder-house-chico?osq=seafood", "Seafood", "PelicansRoost.jpg", false));
-imgArray.push(new Restaurants("Pueblito Mexican Grill", "PueblitoMexican.jpg", 2, "https://www.yelp.com/biz/pueblito-mexican-grill-durham", "Mexican", "PueblitoMexican.jpg", false));
-imgArray.push(new Restaurants("Lucky Poke", "LuckyPoke.jpg", 2, "https://www.yelp.com/biz/lucky-poke-chico-2?osq=poke", "Japanese", "LuckyPoke.jpg", false));
-imgArray.push(new Restaurants("Morning Thunder Cafe", "MorningThunderCafe.jpg", 2, "https://www.yelp.com/biz/morning-thunder-cafe-chico?osq=morning+thunder+cafe", "American", "MorningThunderCafe.jpg", false));
-imgArray.push(new Restaurants("Aonami Sushi Bar", "Aonami.jpg", 2, "https://www.yelp.com/biz/aonami-chico", "Japanese", "Aonami.jpg", false));
-imgArray.push(new Restaurants("Celestino\'s Pizza", "CelestinosPizza.jpg", 1, "https://www.yelp.com/biz/celestinos-new-york-pizza-chico-2", "Italian", "CelestinosPizza.jpg", false));
-imgArray.push(new Restaurants("Kinder\'s", "Kinders.jpg", 2, "https://www.yelp.com/biz/kinders-meats-deli-bbq-chico", "American", "Kinders.jpg", false));
-imgArray.push(new Restaurants("I Fish Poke Bar Thai Kitchen", "IFishPokeBarThaiKitchen.jpg", 2, "https://www.yelp.com/biz/i-fish-poke-bar-thai-kitchen-chico-4", "Japanese", "IFishPokeBarThaiKitchen.jpg", false));
-imgArray.push(new Restaurants("Happy Garden Restaurant", "HappyGarden.jpg", 1, "https://www.yelp.com/biz/happy-garden-restaurant-chico", "Chinese", "HappyGarden.jpg", false));
-imgArray.push(new Restaurants("Mekkala Thai Cuisine", "MekkalaThai.jpg", 2, "https://www.yelp.com/biz/mekkala-thai-cuisine-chico?osq=thai", "Oriental", "MekkalaThai.jpg", false));
-imgArray.push(new Restaurants("El Guayacan", "ElGuayacan.jpg", 2, "https://www.yelp.com/biz/el-guayacan-mexican-restaurant-chico?osq=mexican", "Mexican", "ElGuayacan.jpg", false));
-imgArray.push(new Restaurants("Ginger\'s'", "Gingers.jpg", 1, "https://www.yelp.com/biz/gingers-chico?osq=chinese", "Chinese", "Ginger\'s Restaurant.PNG", false));
-imgArray.push(new Restaurants("Leon Bistro", "LeonBistro.jpg", 3, "https://www.yelp.com/biz/leon-bistro-chico?osq=seafood", "Seafood", "Leon Bistro.PNG", false));
-imgArray.push(new Restaurants("Diamond Steakhouse", "DiamondSteakhouse.jpg", 3, "https://www.yelp.com/biz/diamond-steakhouse-chico?osq=seafood", "Seafood", "Diamond Steakhouse.PNG", false));
-imgArray.push(new Restaurants("Sicilian Cafe", "SicilianCafe.jpg", 2, "https://www.yelp.com/biz/sicilian-cafe-chico?osq=seafood", "Seafood", "Sicilian Cafe.PNG", false));
-imgArray.push(new Restaurants("Guzzetti\'s Indian Food", "Guzzettis.jpg", 1, "https://www.yelp.com/biz/guzzettis-catering-and-indian-food-chico", "Indian", "Guzzettis.jpg", false));
+imgArray.push(new Restaurants("Priya", "PriyaIndian.jpg", 2, "https://www.yelp.com/biz/priya-chico?osq=indian", "Indian"));
+imgArray.push(new Restaurants("Franky\'s", "Frankys.jpg", 2, "https://www.yelp.com/biz/frankys-chico?osq=italian", "Italian"));
+imgArray.push(new Restaurants("Pelican\'s Roost and Chowder", "PelicansRoost.jpg", 2, "https://www.yelp.com/biz/pelicans-roost-and-chowder-house-chico?osq=seafood", "Seafood"));
+imgArray.push(new Restaurants("Pueblito Mexican Grill", "PueblitoMexican.jpg", 2, "https://www.yelp.com/biz/pueblito-mexican-grill-durham", "Mexican"));
+imgArray.push(new Restaurants("Lucky Poke", "LuckyPoke.jpg", 2, "https://www.yelp.com/biz/lucky-poke-chico-2?osq=poke", "Japanese"));
+imgArray.push(new Restaurants("Morning Thunder Cafe", "MorningThunderCafe.jpg", 2, "https://www.yelp.com/biz/morning-thunder-cafe-chico?osq=morning+thunder+cafe", "American"));
+imgArray.push(new Restaurants("Aonami Sushi Bar", "Aonami.jpg", 2, "https://www.yelp.com/biz/aonami-chico", "Japanese"));
+imgArray.push(new Restaurants("Celestino\'s Pizza", "CelestinosPizza.jpg", 1, "https://www.yelp.com/biz/celestinos-new-york-pizza-chico-2", "Italian"));
+imgArray.push(new Restaurants("Kinder\'s", "Kinders.jpg", 2, "https://www.yelp.com/biz/kinders-meats-deli-bbq-chico", "American"));
+imgArray.push(new Restaurants("I Fish Poke Bar Thai Kitchen", "IFishPokeBarThaiKitchen.jpg", 2, "https://www.yelp.com/biz/i-fish-poke-bar-thai-kitchen-chico-4", "Japanese"));
+imgArray.push(new Restaurants("Happy Garden Restaurant", "HappyGarden.jpg", 1, "https://www.yelp.com/biz/happy-garden-restaurant-chico", "Chinese"));
+imgArray.push(new Restaurants("Mekkala Thai Cuisine", "MekkalaThai", 2, "https://www.yelp.com/biz/mekkala-thai-cuisine-chico?osq=thai", "Oriental"));
+imgArray.push(new Restaurants("El Guayacan", "ElGuayacan.jpg", 2, "https://www.yelp.com/biz/el-guayacan-mexican-restaurant-chico?osq=mexican", "Mexican"));
+imgArray.push(new Restaurants("Ginger\'s'", "Gingers.jpg", 1, "https://www.yelp.com/biz/gingers-chico?osq=chinese", "Chinese"));
+imgArray.push(new Restaurants("Leon Bistro", "LeonBistro.jpg", 3, "https://www.yelp.com/biz/leon-bistro-chico?osq=seafood", "Seafood"));
+imgArray.push(new Restaurants("Diamond Steakhouse", "DiamondSteakhouse.jpg", 3, "https://www.yelp.com/biz/diamond-steakhouse-chico?osq=seafood", "Seafood"));
+imgArray.push(new Restaurants("Sicilian Cafe", "SicilianCafe.jpg", 2, "https://www.yelp.com/biz/sicilian-cafe-chico?osq=seafood", "Seafood"));
+imgArray.push(new Restaurants("Guzzetti\'s Indian Food", "Guzzettis.jpg", 1, "https://www.yelp.com/biz/guzzettis-catering-and-indian-food-chico", "Indian"));
 
 /** Totals:
 American: 5
@@ -101,7 +101,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "American"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + "is" + imgArray[j].cost + "out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -113,11 +113,11 @@ function counters(){
     console.log("Mexican: " + mexican);
     if(mexican >= 3){
       document.getElementById("replace").innerHTML = "<p>Your choices have given you Mexican food! Here is a list of Mexican restuarants in the Chico area!</p>";
-      window.scrollBy(0, 500)
+      window.scrollBy(0, 1000)
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Mexican"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + "is" + imgArray[j].cost + "out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -134,7 +134,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Italian"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + "is" + imgArray[j].cost + "out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -151,7 +151,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Japanese"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + "is" + imgArray[j].cost + "out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -168,7 +168,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Chinese"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + "is" + imgArray[j].cost + "out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -185,7 +185,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Indian"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + "is" + imgArray[j].cost + "out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -202,7 +202,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Oriental"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + "is" + imgArray[j].cost + "out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -219,7 +219,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Seafood"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + "is" + imgArray[j].cost + "out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -236,7 +236,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Mediterranean"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + "is" + imgArray[j].cost + "out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\">" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
