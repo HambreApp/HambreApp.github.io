@@ -81,7 +81,7 @@ a {
   text-decoration: none;
   border: 2px dashed rgb(255, 204, 204);
   margin: 0;
-
+  padding: 4px;
 }
 .sitelinks:hover{
   font-weight: bold;
