@@ -77,3 +77,13 @@ a {
 .drop:hover .dropdownbtns{
   display: block;
 }
+.sitelinks{
+  text-decoration: none;
+  border: 2px dashed rgb(255, 204, 204);
+  margin: 0;
+
+}
+.sitelinks:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
