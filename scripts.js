@@ -28,7 +28,7 @@ imgArray.push(new Restaurants("Big Hot Crab", "bigHotCrab.jpg", 2, "https://www.
 imgArray.push(new Restaurants("Sipho\'s Restaurant", "Siphos.jpg", 2, "https://www.yelp.com/biz/siphos-restaurant-and-cafe-chico", "Oriental", "Siphos.jpg", false));
 imgArray.push(new Restaurants("Chan Pheng\'s", "ChanPhengs.jpg", 2, "https://www.yelp.com/biz/chan-phengs-mandarin-cuisine-chico?osq=chinese", "Chinese", "ChanPhengs.jpg", false));
 imgArray.push(new Restaurants("Amigos De Acapulco", "AmigosDeAcapulco.jpg", 1, "https://www.yelp.com/biz/amigos-de-acapulco-chico?osq=mexican", "Mexican", "AmigosDeAcapulco.jpg", false));
-imgArray.push(new Restaurants("Hula\'ss ChineseBBQ", "Hulas.jpg", 2, "https://www.yelp.com/biz/hulas-chinese-bar-b-q-chico-2?osq=chinese", "Chinese", "Hulas.jpg", false));
+imgArray.push(new Restaurants("Hula\'s ChineseBBQ", "Hulas.jpg", 2, "https://www.yelp.com/biz/hulas-chinese-bar-b-q-chico-2?osq=chinese", "Chinese", "Hulas.jpg", false));
 imgArray.push(new Restaurants("Taj\'s Fine Indian Cuisine", "TajFineIndianCuisine.jpg", 2, "https://www.yelp.com/biz/taj-fine-indian-cuisine-chico?osq=indian", "Indian", "TajFineIndianCuisine.jpg", false));
 imgArray.push(new Restaurants("California Pasta Production", "CaliforniaPastaProduction.jpg", 2, "https://www.yelp.com/biz/california-pasta-production-chico?osq=italian", "Italian", "CaliforniaPastaProduction", false));
 imgArray.push(new Restaurants("Aztlan Mexican", "Aztlan.jpg", 1, "https://www.yelp.com/biz/aztlan-mexican-restaurant-chico?osq=mexican", "Mexican", "Aztlan.jpg", false));
