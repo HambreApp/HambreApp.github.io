@@ -7,6 +7,7 @@ this.link = link;
 this.typeofr = typeofr;
 this.picofrest = picofrest;
 this.chosen = chosen;
+  
 }
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 // Creates the array of foods for the application
