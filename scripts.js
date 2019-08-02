@@ -20,7 +20,7 @@ imgArray.push(new Restaurants("Ali Baba", "AliBaba.jpg", 1, "https://www.yelp.co
 imgArray.push(new Restaurants("Peeking Chinese", "PeekingChinese.jpg", 1, "https://www.yelp.com/biz/peeking-chinese-restaurants-chico-2", "Chinese", "PeekingChinese.jpg", false));
 imgArray.push(new Restaurants("Tres Hombres", "TresHombres.jpg", 2, "https://www.yelp.com/biz/tres-hombres-long-bar-and-grill-chico", "Mexican", "TresHombres.jpg", false));
 imgArray.push(new Restaurants("Nash\'s Restaurant", "NashsRestaurant.jpg", 2, "https://www.yelp.com/biz/nashs-restaurant-chico", "American", "NashsRestaurant.jpg", false));
-imgArray.push(new Restaurants("Cocodine Thai Cuisine", "Cocodiness.jpg", 2, "https://www.yelp.com/biz_photos/cocodine-thai-cuisine-chico", "Oriental", "CocodineThaiCuisine.jpg", false));
+imgArray.push(new Restaurants("Cocodine Thai Cuisine", "Cocodiness.jpg", 2, "https://www.yelp.com/biz_photos/cocodine-thai-cuisine-chico", "Oriental", "Cocodiness.jpg", false));
 imgArray.push(new Restaurants("Crush Italian", "CrushItalian.jpg", 2, "https://www.yelp.com/biz/crush-italian-cuisine-and-lounge-chico", "Italian", "CrushItalian.jpg", false));
 imgArray.push(new Restaurants("Burgers and Brew", "BurgersAndBrew.jpg", 2, "https://www.yelp.com/biz/burgers-and-brew-chico-4?osq=Burgers+%26+Brew", "American", "BurgersandBrew.jpg", false));
 imgArray.push(new Restaurants("Halo Hawaiian BBQ", "haloHawaiianbbqandpokebar.jpg", 2, "https://www.yelp.com/biz/halo-hawaiian-bbq-and-poke-bar-chico", "Japanese", "haloHawaiianbbqandpokebar.jpg", false));
@@ -49,7 +49,7 @@ imgArray.push(new Restaurants("El Guayacan", "ElGuayacan.jpg", 2, "https://www.y
 imgArray.push(new Restaurants("Ginger\'s'", "Gingers.jpg", 1, "https://www.yelp.com/biz/gingers-chico?osq=chinese", "Chinese", false));
 imgArray.push(new Restaurants("Leon Bistro", "LeonBistro.jpg", 3, "https://www.yelp.com/biz/leon-bistro-chico?osq=seafood", "Seafood", false));
 imgArray.push(new Restaurants("Diamond Steakhouse", "DiamondSteakhouse.jpg", 3, "https://www.yelp.com/biz/diamond-steakhouse-chico?osq=seafood", "Seafood", false));
-imgArray.push(new Restaurants("Sicilian Cafe", "SicilianCafe.jpg", 2, "https://www.yelp.com/biz/sicilian-cafe-chico?osq=seafood", "Seafood", false));
+imgArray.push(new Restaurants("Sicilian Cafe", "SilicanCafe.jpg", 2, "https://www.yelp.com/biz/sicilian-cafe-chico?osq=seafood", "Seafood", false));
 imgArray.push(new Restaurants("Guzzetti\'s Indian Food", "Guzzettis.jpg", 1, "https://www.yelp.com/biz/guzzettis-catering-and-indian-food-chico", "Indian", false));
 
 /** Totals:
