@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html>
-        <head>
-                <link rel="stylesheet" href="styles.css">
-                <link rel="icon" href="Fork.png">
-                <title>Hambre</title>
-                <!-- <script src="scripts.js"> -->
-                        <center> <div class="heading" class="font">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Fork.png">
+  <title>Hambre</title>
+  <center>
+    <div class="heading" class="font">
       <h1>Hambre</h1>
     </div>
   </center>
 </head>
-<body>
-    <div class="drop">
-         <button class="dropdown">Menu</button>
-             <div class="dropdownbtns">
-   <center><a href="about.html">About</a>
-   <center><a href=>Liked Foods</a>
-   <center><a href="#" onlick="reset()">Reset</a>
-   <center><a href="mailto:hambrecompany@gmail.com">Contact Us</a>
-             </div>
-    </div>
-<body>
-        <div>
-        <div id="discover">
-   <center><h3 class="font">A way to discover new cuisine!</h3> </center>
-        </div>
-        </div>
-</body>
-    <p></p>
-<center>
-        <div id="Restaurants">
-        <img class="img1" src="images/Grana.jpg" alt="Grana" id="mainImg">
-        </div>
-    <br></br>
+<body onload="loadphotos()">
+  <div class="drop">
+       <button class="dropdown">Menu</button>
+           <div class="dropdownbtns">
+ <center><a href=>About</a>
+ <center><a href="#" onlick="reset()">Reset</a>
+ <center><a href="mailto:hambrecompany@gmail.com">Contact Us</a>
+           </div>
+  </div>
+  <body>
+          <div>
+          <div id="discover">
+     <center><h3 class="font">A way to discover new cuisine!</h3> </center>
+          </div>
+          </div>
+  </body>
+      <p></p>
+  <center>
+          <div id="Restaurants">
+          <img class="img1" src="images/Grana.jpg" alt="Grana" id="mainImg">
+          </div>
+      <br></br>
 
-    <button class="button" onclick="nextImage()"><img src="XIcon.png" width="60"></button>
-    <button class="button" onclick="nextImage()"><img src="TUG.png" width="60"></button>
-    <p></p>
-    <br>
-    <p id="replace"></p>
-    <br>
-    <p class="font">Copyright ©2019 HambreCompany.</p>
+      <button class="button" onclick="nextImage()"><img src="XIcon.png" width="60"></button>
+      <button class="button" onclick="counters(); nextImage()"><img src="TUG.png" width="60"></button>
+      <p></p>
+      <br>
+      <p id="replace"></p>
+      <p id="replace1"></p>
+      <p id="replace2"></p>
+      <p id="replace3"></p>
+      <br>
+      <p class="font">Copyright ©2019 HambreCompany.</p>
 
-  <script src=scripts.js></script>
-</body>
-</html>
+    <script src=scripts.js></script>
+  </body>
+  </html>
