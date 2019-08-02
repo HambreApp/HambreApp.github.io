@@ -91,17 +91,16 @@ function nextImage(){
 
 function counters(){
   imgArray[i].chosen = true;
-
   if(imgArray[i].typeofr == "American"){
     american = american + 1;
     console.log("American: " + american);
     if(american >= 3){
-      document.getElementById("replace").innerHTML = "<p>Your choices have given you American food! Here is a list of American restuarants in the Chico area!</p>";
+      document.getElementById("replace").innerHTML = "<p>Your choices have given you American food! Here is a list of American restuarants in the Chico area! </p><br><p> Please click on the links below to learn more information about the restaurants!</p>";
       window.scrollBy(0, 500)
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "American"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<a class=\"sitelinks\" href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -112,12 +111,12 @@ function counters(){
     mexican = mexican + 1;
     console.log("Mexican: " + mexican);
     if(mexican >= 3){
-      document.getElementById("replace").innerHTML = "<p>Your choices have given you Mexican food! Here is a list of Mexican restuarants in the Chico area!</p>";
+      document.getElementById("replace").innerHTML = "<p>Your choices have given you Mexican food! Here is a list of Mexican restuarants in the Chico area! </p><br><p> Please click on the links below to learn more information about the restaurants!</p>";
       window.scrollBy(0, 1000)
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Mexican"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<a class=\"sitelinks\" href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -129,12 +128,12 @@ function counters(){
     italian = italian + 1;
     console.log("Italian: " + italian);
     if(italian >= 3){
-      document.getElementById("replace").innerHTML = "<p>Your choices have given you Italian food! Here is a list of Italian restuarants in the Chico area!</p>";
+      document.getElementById("replace").innerHTML = "<p>Your choices have given you Italian food! Here is a list of Italian restuarants in the Chico area! </p><br><p> Please click on the links below to learn more information about the restaurants!</p>";
       window.scrollBy(0, 500)
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Italian"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<a class=\"sitelinks\" href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -146,12 +145,12 @@ function counters(){
     japanese = japanese + 1;
     console.log("Japanese: " + japanese);
     if(japanese >= 3){
-      document.getElementById("replace").innerHTML = "<p>Your choices have given you Japanese food! Here is a list of Japanese restuarants in the Chico area!</p>";
+      document.getElementById("replace").innerHTML = "<p>Your choices have given you Japanese food! Here is a list of Japanese restuarants in the Chico area! </p><br><p> Please click on the links below to learn more information about the restaurants!</p>";
       window.scrollBy(0, 500)
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Japanese"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<a class=\"sitelinks\" href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -163,12 +162,12 @@ function counters(){
     chinese = chinese + 1;
     console.log("Chinese: " + chinese);
     if(chinese >= 3){
-      document.getElementById("replace").innerHTML = "<p>Your choices have given you Chinese food! Here is a list of Chinese restuarants in the Chico area!</p>";
+      document.getElementById("replace").innerHTML = "<p>Your choices have given you Chinese food! Here is a list of Chinese restuarants in the Chico area! </p><br><p> Please click on the links below to learn more information about the restaurants!</p>";
       window.scrollBy(0, 500)
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Chinese"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<a class=\"sitelinks\" href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -180,12 +179,12 @@ function counters(){
     indian = indian + 1;
     console.log("Indian: " + indian);
     if(indian >= 3){
-      document.getElementById("replace").innerHTML = "<p>Your choices have given you Indian food! Here is a list of Indian restuarants in the Chico area!</p>";
+      document.getElementById("replace").innerHTML = "<p>Your choices have given you Indian food! Here is a list of Indian restuarants in the Chico area! </p><br><p> Please click on the links below to learn more information about the restaurants!</p>";
       window.scrollBy(0, 500)
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Indian"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<a class=\"sitelinks\" href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -202,7 +201,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Oriental"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<a class=\"sitelinks\" href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -219,7 +218,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Seafood"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\"" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<a class=\"sitelinks\" href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
@@ -236,7 +235,7 @@ function counters(){
       for(var j=0; j<imgArray.length; j++){
         if(imgArray[j].typeofr == "Mediterranean"){
           if(imgArray[j].chosen == true){
-            document.getElementById("replace" + counter).innerHTML = "<img src=\"" + imgArray[j].picofrest +"\">" + "<a href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
+            document.getElementById("replace" + counter).innerHTML = "<a class=\"sitelinks\" href=\"" + imgArray[j].link + "\"> " + imgArray[j].name + "</a>" + "<p> The price of " + imgArray[j].name + " is " + imgArray[j].cost + " out of 4, 4 being the most expensive </p>"
             counter = counter + 1;
           }
         }
