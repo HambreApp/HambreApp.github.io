@@ -1,8 +1,6 @@
 # HambreApp.github.io
-A website for those who want more of a say in what-and where-they eat. 
-Have you ever had the problem of not knowing what to eat?
-Girlfriend won't make up her mind of where she wants to go?
+A website to assist those who have trouble deciding where to eat.
+Have you ever spent hours deciding what you want to go to get a meal?
+Significant other can't make up their mind?
 
 Use Hambre and watch all indecisiveness disappear.
-
-
